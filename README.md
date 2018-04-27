@@ -4,6 +4,8 @@ AthenaJS provides JavaScript and Node.js developers with an API for [Apache Spar
 
 Note: AthenaJS is a renamed fork of the [EclairJS project](https://github.com/EclairJS/eclairjs) and this fork is currently very much "under construction".
 
+@@ need to re-home examples etc below here
+
 The examples directory contains smaller code examples that demonstrate how-to take advantage of various Spark capabilities such as streaming, ML, from a Node.js environment. There is also an examples/server directory that contains smaller code examples that can be run directly on the EclairJS server.
 
 The [eclairs-examples](https://github.com/eclairjs/eclairjs-examples) repository contains a number of relatively full-function example Node.js applications that include UIs using the EclairJS client, plus the EclairJS server and Spark. 
