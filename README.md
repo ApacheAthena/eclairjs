@@ -1,7 +1,8 @@
-# EclairJS
+# AthenaJS
 
-EclairJS provides JavaScript and Node.js developers with an API for [Apache Spark](http://spark.apache.org/), and enables them to take advantage of Spark's unique data-processing environment that includes streaming, SQL, Machine Learning, and a graph database. Using EclairJS, developers can write applications entirely in JavaScript, some of which will be executed in the local JavaScript environment such as Node.js, and some of which will be executed on Spark. EclairJS is composed of a client component that runs in the local JavaScript environment, and can be simply installed from npm, and server components that can be remote from the client and handle JavaScript in Spark.
+AthenaJS provides JavaScript and Node.js developers with an API for [Apache Spark](http://spark.apache.org/), and enables them to take advantage of Spark's unique data-processing environment that includes streaming, SQL, Machine Learning, and a graph database. Using AthenaJS, developers can write applications entirely in JavaScript, some of which will be executed in the local JavaScript environment such as Node.js, and some of which will be executed on Spark. AthenaJS is composed of a client component that runs in the local JavaScript environment, and can be simply installed from npm, and server components that can be remote from the client and handle JavaScript in Spark.
 
+Note: AthenaJS is a renamed fork of the [EclairJS project] (https://github.com/EclairJS/eclairjs) and this fork is currently very much "under construction".
 
 The examples directory contains smaller code examples that demonstrate how-to take advantage of various Spark capabilities such as streaming, ML, from a Node.js environment. There is also an examples/server directory that contains smaller code examples that can be run directly on the EclairJS server.
 
@@ -40,4 +41,3 @@ export JUPYTER_PORT=<container ip, defaults to 8888>
 * [API Examples](https://github.com/EclairJS/eclairjs/tree/master/examples)
 * [Example Applications](https://github.com/EclairJS/eclairjs-examples)
 
-Note: This repository supports Apache Spark 2.0, and it supercedes an set of repositories ([EclairJS/eclairjs-node](https://github.com/EclairJS/eclairjs-node) and [EclairJS/eclairjs-nashorn](https://github.com/EclairJS/eclairjs-nashorn)) that supported an earlier version of Spark, namely 1.6. The focus of the EclairJS work going forward will be on supporting Spark 2.0.
